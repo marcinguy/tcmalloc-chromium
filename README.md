@@ -2,9 +2,9 @@
 
 tcmalloc implementation in chromium based browsers (chrome) differs from vanilla tcmalloc.
 
-several symbols and struct members are not exposed are not there.
+several symbols and struct members are not exposed, are not there.
 
-I managed to export the pagemap via pagemap2 (made it public temporarily in PageHeap).
+I managed to export the pagemap via pageheap2 (made it public temporarily in PageHeap).
 
 Wondering why 3 radix tree does not contain data/pointers? Only "0"
 
