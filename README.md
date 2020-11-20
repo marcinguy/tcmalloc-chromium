@@ -747,3 +747,34 @@ prev = 0x7ffff7dd2400 <tcmalloc::Static::pageheap2_+84360>, {objects = 0x0, span
     unmapped_bytes = 0, committed_bytes = 0, scavenge_count = 0, commit_count = 0, total_commit_bytes = 0, decommit_count = 0, total_decommit_bytes = 0, reserve_count = 0, total_reserve_bytes = 0},
   scavenge_counter_ = 0, release_index_ = 256, aggressive_decommit_ = false}
 ```
+
+## Update 1
+
+At least I can see  the ThreadCache Feelist objects
+
+```
+THREAD CACHES
+[thread 0x7fff820a8700]
+[64(4/88)] (1 objects)
+object: 0x591f1f2f180
+[80(5/88)] (1 objects)
+object: 0x591f0facf00
+[128(8/88)] (1 objects)
+object: 0x591f27b1d00
+[160(10/88)] (1 objects)
+object: 0x591f1ab61e0
+[192(12/88)] (1 objects)
+object: 0x591f1644300
+[thread 0x7fff818a7700]
+[64(4/88)] (1 objects)
+object: 0x591f259d2c0
+[128(8/88)] (1 objects)
+object: 0x591f27b1e00
+[144(9/88)] (1 objects)
+object: 0x591f002b480
+[160(10/88)] (1 objects)
+object: 0x591f1b7db40
+[thread 0x7fff7255f700]
+```
+
+
